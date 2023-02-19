@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Observer - fullPage.js</title>
+    <meta name="author" content="Alvaro Trigo Lopez" />
+    <meta name="description" content="fullPage.js using CSS3 transformations." />
+    <meta name="keywords" content="fullpage,jquery,anchor,links,inside,demo,css,css3" />
+    <meta name="Resource-type" content="Document" />
+
+    <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+
+    <link rel="stylesheet" href="../css/aos.css">
+
+    <link rel="stylesheet" href="../css/ionicons.min.css">
+
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="../dist/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="examples.css" />
+
+    <style>
+        /* Hidding sections under 960px width */
+        @media screen and (max-width: 960px) {
+            .hide-on-responsive {
+                display: none;
+            }
+        }
+
+        #fp-nav ul li a span,
+        .fp-slidesNav ul li a span {
+            background-color: white;
+        }
+
+
+        .actions {
+            position: absolute;
+            z-index: 999;
+            top: 40px;
+            left: 50px;
+        }
+
+        .actions li {
+            display: inline-block;
+        }
+
+        .actions button {
+            padding: 0.93em 1.87em;
+            background: #35495e;
+            border-radius: 5px;
+            border: 0;
+            color: #fff;
+            margin: 7px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .actions button:hover {
+            background: #fff;
+            color: #35495e;
+        }
+
+        #ftco-navbar ul li a,
+        #ftco-navbar a.navbar-brand {
+            color: #7B7560 !important;
+        }
+
+        .hero-text {
+            font-weight: bold;
+            font-size: 280px;
+            line-height: 250px;
+            overflow: hidden;
+            color: #7B7560;
+        }
+
+        .hero-caption {
+            font-size: 20px;
+            margin-right: 400px;
+            color: #7B7560 !important;
+        }
+
+        .floating {
+            z-index: 999;
+            position: absolute;
+            transition: 1s all;
+            transform: translateY(-1480px) translateX(-9px);
+        }
+
+        .leaf1 {
+            position: absolute;
+            transition: 1s all;
+            transform: translateY(-1380px) translateX(-710px);
+        }
+
+        .leaf4 {
+            position: absolute;
+            transition: 1s all;
+            transform: translateY(-1280px) translateX(350px);
+        }
+
+        .leafs1 {
+            position: absolute;
+            transition: 1s all;
+            transform: translateY(-1180px) translateX(-610px);
+        }
+
+        .leafs2 {
+            position: absolute;
+            transition: 1s all;
+            transform: translateY(-1280px) translateX(-120px);
+        }
+
+        .flower1 {
+            position: absolute;
+            transition: 1s all;
+            transform: translateY(-1280px) translateX(-120px);
+        }
+
+        /* .floating.animate {
+            transform: translateY(-870px) translateX(-350px);
+        } */
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light text-light"
+                id="ftco-navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Boot<span>ting.</span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="oi oi-menu"></span> Menu
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="ftco-nav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active"><a href="" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a herf="" class="nav-link"> khusus red roses</a></li>
+                            <li class="nav-item cta mr-md-2"><a href="#" class="nav-link">Message</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <p class="mb-0 text-white hero-caption">Undangan Digital dengan desain ,</p>
+            <h1 class="hero-text">ßUKU</h1>
+        </div>
+        <div class="section" id="section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="./imgs/leaf4.png" alt="" width="300">
+                    </div>
+                    <div class="col-sm-6 text-white text-left">
+                        <h1>BOOK</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur sunt tempore
+                            quaerat
+                            modi, dignissimos nulla nemo fugiat eos in sint velit ducimus recusandae cupiditate maxime
+                            quisquam voluptatibus distinctio tenetur?</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="intro">
+                <img src="./imgs/leafs1.png" alt="" class="leafs1" width="200">
+                <img src="./imgs/leafs2.png" alt="" class="leafs2" width="200">
+                <img src="./imgs/pink_flower1.png" alt="" class="flower1" width="100">
+                <img src="./imgs/leaf1.png" alt="" class="leaf1" width="150">
+                <img src="./imgs/leaf4.png" alt="" class="leaf4" width="200">
+                <img src="./imgs/invitation1.png" alt="" class="floating" width="200">
+            </div>
+        </div>
+        <div class="section " id="section3">
+            <div class="intro">
+                <h1>Check it out!</h1>
+                <p>You'll love it</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/jquery.stellar.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/jquery.animateNumber.min.js"></script>
+    <script src="../js/bootstrap-datepicker.js"></script>
+    <script src="../js/jquery.timepicker.min.js"></script>
+    <script src="../js/scrollax.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="../js/google-map.js"></script>
+    <script src="../js/main.js"></script>
+    <script type="text/javascript" src="../dist/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            // sectionsColor: ['#fff', '#4BBFC3', '#7BAABE', '#435b71', 'orange', 'red', 'purple', 'yellow', '#435b71', 'orange', 'red', 'purple', 'yellow'],
+            sectionsColor: false,
+            anchors: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
+            controlArrows: false,
+            navigation: true,
+            slidesNavigation: true,
+            onLeave: function (origin, destination, direction, trigger) {
+                var params = {
+                    origin: origin,
+                    destination: destination,
+                    direction: direction,
+                    trigger: trigger
+                };
+
+                // alert('what')
+
+                if (params.destination.anchor == 3) {
+                    $('.floating').css('transform', 'translateY(-230px) translateX(-90px)');
+                } else if (params.destination.anchor == 2) {
+                    $('.floating').css('transform', 'translateY(-870px) translateX(-350px)');
+                    $('.flower1').css('transform', 'translateY(-870px) translateX(-120px)');
+                    $('.leafs2').css('transform', 'translateY(-840px) translateX(-230px) rotate(80deg)');
+                } else {
+                    $('.floating').css('transform', 'translateY(-1480px) translateX(-9px)');
+                    $('.flower1').css('transform', 'translateY(-1280px) translateX(-120px)');
+                    $('.leafs2').css('transform', 'translateY(-1280px) translateX(-120px)');
+                }
+
+
+                console.log("--- onLeave ---");
+                console.log(params.destination.anchor);
+            },
+            // menu: '#ftco-navbar'
+        });
+
+
+
+    </script>
+
+</body>
+
+</html>
